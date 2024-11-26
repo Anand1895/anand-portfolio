@@ -43,11 +43,18 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <div className="animate-on-scroll">
             <h2 className="text-3xl font-bold mb-8">About Me</h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Data analyst aspirant, enthusiastic, and curious professional eager to learn new things. 
-              I'm passionate about finding and solving real-world problems with portable device applications 
-              and cutting-edge AI solutions.
+            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+              As an AI/ML Engineer with a strong foundation in data engineering, I specialize in developing cutting-edge solutions using Large Language Models (LLMs) and Generative AI. My expertise spans across the full machine learning lifecycle - from data pipeline development to model deployment and server management. I'm passionate about pushing the boundaries of what's possible with AI, particularly in creating practical, scalable solutions that solve real-world problems.
             </p>
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold mb-4">Certifications</h3>
+              <ul className="list-disc pl-5 space-y-2 text-gray-600">
+                <li>GCP Essentials</li>
+                <li>Python for Data Science</li>
+                <li>Generative AI with Large Language Models</li>
+                <li>Big Data Foundations - Level 1</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

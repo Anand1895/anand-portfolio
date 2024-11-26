@@ -108,15 +108,33 @@ const Index = () => {
             >
               anandshrivastava04@gmail.com
             </a>
-            <div className="mt-4">
+            <div className="mt-6 space-y-4">
               <a
-                href="https://www.linkedin.com/in/anand1895"
+                href="mailto:anandshrivastava04@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+                className="inline-block w-full sm:w-auto px-6 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors mb-4"
               >
-                Connect on LinkedIn
+                Connect on Gmail
               </a>
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <a
+                  href="https://www.linkedin.com/in/anand1895"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+                >
+                  Connect on LinkedIn
+                </a>
+                <a
+                  href="https://github.com/Anand1895"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
+                >
+                  View on GitHub
+                </a>
+              </div>
             </div>
           </div>
         </div>

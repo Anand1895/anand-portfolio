@@ -155,15 +155,26 @@ const experiences = [
 ];
 
 const skills = [
-  "Prompt Engineering",
-  "Large Language Models",
-  "Generative AI",
-  "Flutter Development",
-  "Data Analysis",
   "Python",
   "Machine Learning",
-  "Android Development",
-  "Web Development",
+  "Artificial Intelligence",
+  "Gen AI",
+  "LLM",
+  "Prompt Engineer",
+  "Data Analyst",
+  "Data Engineer",
+  "Django",
+  "Flask",
+  "Fast API",
+  "REST API",
+  "MySQL",
+  "NoSQL",
+  "Postgres",
+  "DevOps",
+  "Software Engineer",
+  "System Design Engineer",
+  "Prototype Builder",
+  "Streamlit"
 ];
 
 const education = [

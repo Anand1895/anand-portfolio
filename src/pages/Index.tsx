@@ -102,39 +102,31 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
           <div className="animate-on-scroll">
-            <a
-              href="mailto:anandshrivastava04@gmail.com"
-              className="text-primary hover:text-primary/80 transition-colors text-lg font-medium"
-            >
-              anandshrivastava04@gmail.com
-            </a>
-            <div className="mt-6 space-y-4">
+            <div className="flex flex-row justify-center gap-4">
               <a
                 href="mailto:anandshrivastava04@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block w-full sm:w-auto px-6 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors mb-4"
+                className="inline-block px-6 py-3 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors"
               >
                 Connect on Gmail
               </a>
-              <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <a
-                  href="https://www.linkedin.com/in/anand1895"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
-                >
-                  Connect on LinkedIn
-                </a>
-                <a
-                  href="https://github.com/Anand1895"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
-                >
-                  View on GitHub
-                </a>
-              </div>
+              <a
+                href="https://www.linkedin.com/in/anand1895"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
+              >
+                Connect on LinkedIn
+              </a>
+              <a
+                href="https://github.com/Anand1895"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
+              >
+                View on GitHub
+              </a>
             </div>
           </div>
         </div>
